@@ -14,3 +14,4 @@
       ---> 2) Nous allons créer une page web en en suit eberger dans un ESP32
       ---> 3) Créer un systeme de controle en interconnectant les etquipemt de la mais avec le server
    
+cle jeton :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

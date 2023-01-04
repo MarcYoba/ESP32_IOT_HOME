@@ -15,3 +15,4 @@
       ---> 3) Créer un systeme de controle en interconnectant les etquipemt de la mais avec le server
    
 cle jeton :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
+          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

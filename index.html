@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="w3.css">
+	<title>MaisonWeb</title>
+
+	<script type="text/javascript">
+		function openCity(evt,cityname) {
+			var i,x,tablnks;
+			x = document.getElementsByClassName("city");
+			for ( i = 0; i <x.length; i++) {
+				x[i].style.display = "none";
+			}
+			tablnks = document.getElementsByClassName("tablnks");
+
+			for ( i = 0; i < x.length; i++) {
+				tablnks[i].ClassName = tablnks[i].className.replace(" w3-red","");
+			}
+			document.getElementById(cityname).style.display = "block";
+			evt.currentTarget.className +=" w3-red";
+		}
+	</script>
+
+</head>
+<body  class="W3-opacity-max w3-blue">
+
+ <div class="w3-bar w3-black w3-center">
+ 	<button class="w3-bar-item w3-button w3-center tablnks " onclick="openCity(event,'London')"> London</button>
+ 	<button class="w3-bar-item w3-button w3-center tablnks" onclick="openCity(event,'Paris')"> Paris</button>
+ 	<button class="w3-bar-item w3-button w3-center tablnks" onclick="openCity(event,'Tokyo')"> Tokyo</button>
+ </div>	
+
+ <div id='London' class="city" class="w3-display-container"> 
+   <span onclick="this.parentElement.style.display='none'" class="w3-button w3-display-topright">X</span>
+   <h2>London</h2>
+   <P> London est le capital de lode</P>
+ </div>
+
+<div id='Paris' class="city" style="display: none;" class="w3-display-container">
+   <span onclick="this.parentElement.style.display='none'" class="w3-button w3-display-topright">X</span> 
+   <h2>Paris</h2>
+   <P> Paris est le capital de France</P>
+ </div>
+
+ <div id='Tokyo' class="city" style="display:none;" class="w3-display-container"> 
+ 	<span onclick="this.parentElement.style.display='none'" class="w3-button w3-display-topright">X</span>
+   <h2>Tokyo</h2>
+   <P> Tokyo est le capital de Japon</P>
+ </div>
+
+
+</body>
+</html>

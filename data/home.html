@@ -34,7 +34,7 @@
 	 <button class="w3-bar-item w3-button w3-center tablnks" onclick="openCity(event,'statistique')"> statictique du systeme</button>
  </div>	
 
- <div id='wifi' class="city" class="w3-display-container"> 
+ <div id='wifi' class="city" class="w3-display-container w3-center" > 
    <span onclick="this.parentElement.style.display='none'" class="w3-button w3-display-topright">X</span>
 	<div class="w3-card w3-blue w3-center">
 		<h2>CONFIGURATION Wifi</h2>
@@ -42,10 +42,10 @@
 	
    <P class="w3-texte w3-center"> Entre les informations de connexion au wifi </P>
 
-   		<table class="w3-bar w3-table w3-center">
-			<tr>
+   		<table class="w3-bar w3-table w3-center" align="center">
+			<tr align="center">
 				<td>
-				<table class="w3-bar w3-table w3-center" >
+				<table class="w3-bar w3-table w3-center" align="center" >
 				  <tr>
 					<td>
 						<div class="w3-container w3-teal w3-center w3-card-4 w3-brown">
@@ -66,28 +66,7 @@
 				  </tr>
 				</table>
 				</td>
-				<td>
-					<table class="w3-bar w3-table w3-center" >
-						<tr>
-						  <td>
-							  <div class="w3-container w3-teal w3-center w3-card-4 w3-brown">
-								  <h3 class="w3-center "> information </h3>
-						  
-								  
-									  <label class=""><b>Name of wifi / Nom du wifi</b></label>
-									  <input class="w3-input w3-border w3-light-grey" type="text" name="SSID" id="SSID">
-									  
-									  
-									  <label class=""><b>Password</b></label>
-									  <input class="w3-input w3-border w3-light-grey" type="text" name="pass" id="pass">
-									  
-									  <br><br>
-									  <button class="w3-btn w3-blue-blue" id="connexionwifi"> connexion</button>	
-								  
-						  </td>
-						</tr>
-					  </table>
-				</td>
+				
 			</tr>
 		</table>
 		<table class="w3-bar w3-table w3-center">
@@ -124,7 +103,7 @@
       
 	</div>
 	
- </div>
+</div>
 
 <div id='acp' class="city" style="display: none;" class="w3-display-container">
    <span onclick="this.parentElement.style.display='none'" class="w3-button w3-display-topright">X</span> 
@@ -203,6 +182,8 @@
 	<tr>
 		<td>PORTS De connexion</td>
 		<td>Activation PORTS</td>
+		<td>Status</td>
+
 	</tr>
 	<tr>
 		<td>chambre 01</td>
@@ -210,6 +191,7 @@
 				<button   class="w3-button w3-khaki w3-center w3-round-xxlarge" id="offch1" style="width: 50%;" >
 				<span id="chambre01">OFF</span></button>
 		</td>
+		<td id="status1"></td>
 	</tr>
 	<tr>
 		<td>chambre 02</td>
@@ -219,7 +201,7 @@
 			</button>
 			
 		</td>
-		
+		<td id="status2"></td>
 	</tr>
 	<tr>
 		<td>salon </td>
@@ -228,7 +210,7 @@
 				<span id="salon">OFF</span>
 			</button>
 		</td>
-		
+		<td id="status3"></td>
 	</tr>
 
 	<tr>
@@ -239,27 +221,31 @@
 				</button>
 			
 		</td>
-	</tr><tr>
+		<td id="status4"></td>
+	</tr>
+	<tr>
 		<td>lumiereExterne</td>
 		<td>
 				<button   class="w3-button w3-khaki w3-center w3-round-xxlarge" id="offlumiereExterne" style="width: 50%;">
 					<span id="ExterneLumiere">OFF</span>
 				</button>
 		</td>
+		<td id="status5"></td>
 	</tr>
 	<tr>
 		<td>Autre</td>
 		<td>
 			<div class="w3-dropdown-hover">
-				<button class="w3-button">Hover Over Me!</button>
+				<button class="w3-button"> Ajouter des equipements </button>
 				<div class="w3-dropdown-content w3-bar-block w3-border">
 				  <a href="#" class="w3-bar-item w3-button">Link 1</a>
 				  <a href="#" class="w3-bar-item w3-button">Link 2</a>
 				  <a href="#" class="w3-bar-item w3-button">Link 3</a>
 				  <button class="w3-button w3-circle w3-teal">+</button>
 				</div>
-			  </div>
+			</div>
 		</td>
+		<td id="status6"></td>
 	</tr>
 
    </table>

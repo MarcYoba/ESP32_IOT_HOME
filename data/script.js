@@ -52,6 +52,8 @@ var homestatus = {"#lumierech1": 0, "#ventilateurch1": 0, "#douchech1" :0,
 				"#equipement3": 0, "#externe1": 0, "#externe2": 0
 				};
 
+var portstatus = {"#status1":0,"#status2":0,"#status3":0,"#status4":0,"#status5":0}; 				
+
 $(document).ready(function(){
 
 	
@@ -166,6 +168,14 @@ $(document).ready(function(){
 			var value = homestatus[key];
 			if(value == 0){
 				$(key).html("OFF");
+			} else {
+				$(key).html("ON");
+			}
+		}
+		for(var key in portstatus){
+			var value = portstatus[key];
+			if(value == 0){
+				$(key).html("OFF");	
 			} else {
 				$(key).html("ON");
 			}

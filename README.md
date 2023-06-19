@@ -1,8 +1,9 @@
 # ESP32_IOT_HOME
+
 contrôle d'une maison avec esp32 doit DEVKit V1 en utilisant une page web 
 
 Ce systeme est basé sur un ESp32 et un Adruino mage2560. Pour les premier test ce système est utilisé pour le prototypage et non pour les systeme de production. 
-Alors l'utilisé pour les systeme de rpo*duit iont includ des risque potentielle. 
+Alors l'utilisé pour les systeme de rpo*duit iont includ des risque potentielle. elle sera amelioré de jour en jour 
 
 
   ------- Connection systeme ---------
@@ -13,8 +14,12 @@ password = admin
 
 
 -------- Carte à Utiliser -----------
+cette carte peut être fabriqué pour vous si vous en voullez. 
 
-![Capture d’écran 2023-06-18 171637](https://github.com/MarcYoba/ESP32_IOT_HOME/assets/120997273/b61cc637-ef72-4c55-a0f9-0f9ac90b21b9)
+
+![Capture d’écran 2023-06-19 120730](https://github.com/MarcYoba/ESP32_IOT_HOME/assets/120997273/27d11cab-f0a4-4c86-a8b7-58ea83e71a36)
+
+
 
 
 

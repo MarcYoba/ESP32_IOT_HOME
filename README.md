@@ -16,5 +16,5 @@ password = admin
 
 ![Capture d’écran 2023-06-18 171637](https://github.com/MarcYoba/ESP32_IOT_HOME/assets/120997273/b61cc637-ef72-4c55-a0f9-0f9ac90b21b9)
 
-![Capture d’écran 2023-06-18 171637](https://github.com/MarcYoba/ESP32_IOT_HOME/assets/120997273/d151e914-d029-4913-a4c8-d3750adbbe38)
+
 
